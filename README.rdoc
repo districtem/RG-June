@@ -1,4 +1,4 @@
-RG June
+==RG June
 
 This is an app to help with the Rails Girls June Workshop.
 
