@@ -9,9 +9,13 @@ gem 'sqlite3'
 gem 'haml'
 
 group :development, :test do
+	gem 'rspec'
   gem 'rspec-rails', '~>2.0'
-  gem 'factory_girl'
-  gem 'capybara'
+  gem 'factory_girl_rails'
+end
+
+group :test do
+	gem 'capybara'
 end
 
 # Gems used only for assets and not required
